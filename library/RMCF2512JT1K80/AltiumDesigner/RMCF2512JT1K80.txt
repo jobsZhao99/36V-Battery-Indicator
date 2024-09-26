@@ -1,0 +1,163 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RES_RMCF2512_STP")
+Pad (Name "1") (Location -116, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 52, 136) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 116, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 52, 136) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-88, 68)
+Point (88, 68)
+Point (88, -68)
+Point (-88, -68)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-88, 66)
+Point (88, 66)
+Point (88, -66)
+Point (-88, -66)
+EndPolygon
+Line (Width 6) (Start -152, -78) (End -152, 78) (Layer Mechanical15) 
+Line (Width 6) (Start -152, 78) (End 152, 78) (Layer Mechanical15) 
+Line (Width 6) (Start 152, 78) (End 152, -78) (Layer Mechanical15) 
+Line (Width 6) (Start 152, -78) (End -152, -78) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-152, -78)
+Point (-152, 78)
+Point (152, 78)
+Point (152, -78)
+EndPolygon
+Line (Width 6) (Start -77.89173794, -73) (End 77.89173794, -73) (Layer TopOverlay) 
+Line (Width 6) (Start 77.89173794, 73) (End -77.89173794, 73) (Layer TopOverlay) 
+Line (Width 1) (Start -90, -68) (End -90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -90, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End -90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, 68) (End 90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End 90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Step (Name RES_RMCF2512_STP.step)
+EndFootprint
+
+Footprint (Name "RES_RMCF2512_STP-M")
+Pad (Name "1") (Location -120, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 60, 138) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 120, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 60, 138) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-88, 68)
+Point (88, 68)
+Point (88, -68)
+Point (-88, -68)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-88, 66)
+Point (88, 66)
+Point (88, -66)
+Point (-88, -66)
+EndPolygon
+Line (Width 6) (Start -170, -89) (End -170, 89) (Layer Mechanical15) 
+Line (Width 6) (Start -170, 89) (End 170, 89) (Layer Mechanical15) 
+Line (Width 6) (Start 170, 89) (End 170, -89) (Layer Mechanical15) 
+Line (Width 6) (Start 170, -89) (End -170, -89) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-170, -89)
+Point (-170, 89)
+Point (170, 89)
+Point (170, -89)
+EndPolygon
+Line (Width 6) (Start -77.52562587, -73) (End 77.52562587, -73) (Layer TopOverlay) 
+Line (Width 6) (Start 77.52562587, 73) (End -77.52562587, 73) (Layer TopOverlay) 
+Line (Width 1) (Start -90, -68) (End -90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -90, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End -90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, 68) (End 90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End 90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Step (Name RES_RMCF2512_STP.step)
+EndFootprint
+
+Footprint (Name "RES_RMCF2512_STP-L")
+Pad (Name "1") (Location -112, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 44, 134) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 112, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 44, 134) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-88, 68)
+Point (88, 68)
+Point (88, -68)
+Point (-88, -68)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-88, 66)
+Point (88, 66)
+Point (88, -66)
+Point (-88, -66)
+EndPolygon
+Line (Width 6) (Start -138, -71) (End -138, 71) (Layer Mechanical15) 
+Line (Width 6) (Start -138, 71) (End 138, 71) (Layer Mechanical15) 
+Line (Width 6) (Start 138, 71) (End 138, -71) (Layer Mechanical15) 
+Line (Width 6) (Start 138, -71) (End -138, -71) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-138, -71)
+Point (-138, 71)
+Point (138, 71)
+Point (138, -71)
+EndPolygon
+Line (Width 6) (Start -78.3548289, -73) (End 78.3548289, -73) (Layer TopOverlay) 
+Line (Width 6) (Start 78.3548289, 73) (End -78.3548289, 73) (Layer TopOverlay) 
+Line (Width 1) (Start -90, -68) (End -90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -90, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End -90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, 68) (End 90, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 90, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End 90, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, -68) (End 128, -68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, -68) (End 128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start 128, 68) (End -128, 68) (Layer Mechanical13) 
+Line (Width 1) (Start -128, 68) (End -128, -68) (Layer Mechanical13) 
+Step (Name RES_RMCF2512_STP.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "RMCF2512JT1K80") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Visible "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Stackpole International") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "RES_RMCF2512_STP")
+EndComponent
+EndComponents
